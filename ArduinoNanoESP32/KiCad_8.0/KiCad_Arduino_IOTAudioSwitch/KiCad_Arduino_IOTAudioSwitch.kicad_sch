@@ -1201,6 +1201,164 @@
 				)
 			)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -2554,10 +2712,52 @@
 		)
 	)
 	(junction
+		(at 226.06 86.36)
+		(diameter 0)
+		(color 0 0 255 1)
+		(uuid "37b596c5-3cb4-43bd-b312-f4b1f245e678")
+	)
+	(junction
+		(at 226.06 134.62)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "3b525d6b-1ca9-4cae-8d80-e89b87d0637b")
+	)
+	(junction
 		(at 60.96 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a620732-b133-4989-a70c-260abb7ba126")
+	)
+	(junction
+		(at 226.06 36.83)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "4f07f0a5-665a-4cc5-b41f-8b4e3e4be811")
+	)
+	(junction
+		(at 226.06 151.13)
+		(diameter 0)
+		(color 0 0 255 1)
+		(uuid "638278b2-430b-4562-b578-70d5ad0f7527")
+	)
+	(junction
+		(at 226.06 101.6)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "6647a55b-f3dd-4e62-9ae2-872a35a9d5db")
+	)
+	(junction
+		(at 191.77 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8441c215-0cb5-4d49-a795-0023f270486b")
+	)
+	(junction
+		(at 226.06 69.85)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "ba723726-a061-41a6-8e20-8fc140413bd8")
 	)
 	(junction
 		(at 176.53 54.61)
@@ -2566,21 +2766,66 @@
 		(uuid "c77c9fdb-ab0b-4d2b-9662-30e20f02fc9d")
 	)
 	(junction
+		(at 226.06 53.34)
+		(diameter 0)
+		(color 0 0 255 1)
+		(uuid "e074b59d-3e2f-4126-ac08-7161132dd801")
+	)
+	(junction
 		(at 173.99 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee7d8c95-c037-4d90-bd4d-14c37373e123")
 	)
+	(junction
+		(at 226.06 118.11)
+		(diameter 0)
+		(color 0 0 255 1)
+		(uuid "fe28409d-15e9-4914-bc36-ab8aec68c22b")
+	)
 	(wire
 		(pts
-			(xy 186.69 86.36) (xy 199.39 86.36)
+			(xy 226.06 69.85) (xy 233.68 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "00ff10de-41aa-4fd8-bc80-2083152fcd97")
+		(uuid "002ace35-fcc3-41c8-877a-33d974cc30a1")
+	)
+	(wire
+		(pts
+			(xy 241.3 134.62) (xy 241.3 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "01cb5275-5357-41ea-9b2d-246763b5c22f")
+	)
+	(wire
+		(pts
+			(xy 220.98 81.28) (xy 220.98 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "02229d69-1c25-44f5-a839-0476dba40232")
+	)
+	(wire
+		(pts
+			(xy 247.65 82.55) (xy 241.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "06882b1f-a27b-4f1f-866c-c33d47252670")
 	)
 	(wire
 		(pts
@@ -2604,25 +2849,34 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 78.74) (xy 207.01 101.6)
+			(xy 111.76 91.44) (xy 114.3 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 0 0 1)
 		)
-		(uuid "0e77307b-60a8-4ec1-93ab-feacf4372b77")
+		(uuid "0e79425c-2b72-49d7-9b0b-36b4b83e102a")
 	)
 	(wire
 		(pts
-			(xy 198.12 104.14) (xy 214.63 104.14)
+			(xy 219.71 151.13) (xy 226.06 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 255 1)
 		)
-		(uuid "14315bba-2234-407a-99e8-8e98ae836356")
+		(uuid "1021d79f-7482-4bdb-916e-a226f5b73da8")
+	)
+	(wire
+		(pts
+			(xy 114.3 69.85) (xy 132.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "130679e6-ba83-4cef-bef7-3b0909f26572")
 	)
 	(wire
 		(pts
@@ -2647,13 +2901,90 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 111.76) (xy 132.08 111.76)
+			(xy 219.71 99.06) (xy 219.71 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "18251102-393d-4b9e-acf7-9593c62e6594")
+	)
+	(wire
+		(pts
+			(xy 241.3 101.6) (xy 241.3 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "18d86f82-4034-4463-ad65-990d064f8829")
+	)
+	(wire
+		(pts
+			(xy 111.76 96.52) (xy 116.84 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b85eecb-7ccc-405c-ba8a-d8c2373aca3b")
+		(uuid "1c6706ba-7c59-4e6e-802a-9813ec5e6713")
+	)
+	(wire
+		(pts
+			(xy 226.06 134.62) (xy 233.68 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1e368310-6069-441c-bb42-b06fe4ca5041")
+	)
+	(wire
+		(pts
+			(xy 220.98 69.85) (xy 226.06 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "237e9c0d-4455-4c85-be5d-a8c9e2ff1a76")
+	)
+	(wire
+		(pts
+			(xy 186.69 81.28) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2461fdc0-e45b-402f-a38a-9627f8cb0e32")
+	)
+	(wire
+		(pts
+			(xy 241.3 69.85) (xy 241.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "254ee158-e9f8-40f1-a3d9-fd809d7786dc")
+	)
+	(wire
+		(pts
+			(xy 247.65 49.53) (xy 241.3 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "297cf383-099c-4b98-a49e-a6e91345d4b1")
 	)
 	(wire
 		(pts
@@ -2667,67 +2998,24 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 190.5 149.86)
+			(xy 114.3 91.44) (xy 114.3 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 255 1)
 		)
-		(uuid "337ef7ca-91b0-46d7-a20c-c1fd40802258")
+		(uuid "34c30dee-9da4-412f-ada6-ed4ef7b911fb")
 	)
 	(wire
 		(pts
-			(xy 207.01 101.6) (xy 214.63 101.6)
+			(xy 241.3 36.83) (xy 241.3 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "33bc4cc2-a8cb-43c2-8ac2-aaa087479fce")
-	)
-	(wire
-		(pts
-			(xy 115.57 78.74) (xy 115.57 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34572709-b2bf-4fa1-9d59-d4e0d46e7ac3")
-	)
-	(wire
-		(pts
-			(xy 204.47 81.28) (xy 204.47 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "35339853-6c2f-489a-a821-fdfdb55d04b6")
-	)
-	(wire
-		(pts
-			(xy 111.76 78.74) (xy 115.57 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b20dbb1-9891-4192-be83-2fcd77f2cef3")
-	)
-	(wire
-		(pts
-			(xy 199.39 86.36) (xy 199.39 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "3d1fe4e1-9fa6-4bc3-89ef-7f25acaec9a0")
+		(uuid "4397f297-af17-405a-b7a4-049ae93eebfd")
 	)
 	(wire
 		(pts
@@ -2741,14 +3029,35 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 134.62) (xy 214.63 134.62)
+			(xy 226.06 118.11) (xy 233.68 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 255 1)
 		)
-		(uuid "5bbbea45-8651-4342-b20d-e53e2f59d7b6")
+		(uuid "4a2fed28-b9e4-428d-96a0-4061f97b1114")
+	)
+	(wire
+		(pts
+			(xy 191.77 54.61) (xy 207.01 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bfdb2e-7e55-4ccf-adfc-3a3695800b8a")
+	)
+	(wire
+		(pts
+			(xy 241.3 111.76) (xy 247.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "5a8a44a0-1144-487e-ab56-e29c0f28d810")
 	)
 	(wire
 		(pts
@@ -2762,25 +3071,14 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 132.08) (xy 214.63 132.08)
+			(xy 218.44 134.62) (xy 226.06 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "62908012-8a11-4516-a753-4a85b72a3bb3")
-	)
-	(wire
-		(pts
-			(xy 198.12 91.44) (xy 198.12 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "63efd47c-76c4-40b8-97c5-4ef97393a3e6")
+		(uuid "635bed00-0024-4330-81b5-b1ed28633b0a")
 	)
 	(wire
 		(pts
@@ -2794,6 +3092,50 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 151.13) (xy 233.68 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "68751bea-d602-4217-9ac6-53f594d7185b")
+	)
+	(wire
+		(pts
+			(xy 220.98 83.82) (xy 220.98 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "69c16996-f814-46f0-9621-dbfbbd177af7")
+	)
+	(wire
+		(pts
+			(xy 222.25 96.52) (xy 222.25 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "6a3dbe60-518a-4826-ab43-8c005d108e6f")
+	)
+	(wire
+		(pts
+			(xy 218.44 78.74) (xy 218.44 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6afa7ee4-6293-4603-ba82-cdfcee9ecdab")
+	)
+	(wire
+		(pts
 			(xy 139.7 80.01) (xy 144.78 80.01)
 		)
 		(stroke
@@ -2804,16 +3146,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 69.85) (xy 132.08 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7827e42b-0e4f-4f8b-aac2-45af16962bb2")
-	)
-	(wire
-		(pts
 			(xy 144.78 76.2) (xy 161.29 76.2)
 		)
 		(stroke
@@ -2821,6 +3153,28 @@
 			(type default)
 		)
 		(uuid "7c81ad2a-5874-4bb5-ab84-56b2ae110305")
+	)
+	(wire
+		(pts
+			(xy 219.71 91.44) (xy 219.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "807b448f-b915-49bb-8257-3e4fc32c7402")
+	)
+	(wire
+		(pts
+			(xy 241.3 147.32) (xy 241.3 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "84a1430e-dead-400b-856b-c11675fdaa37")
 	)
 	(wire
 		(pts
@@ -2845,6 +3199,71 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 114.3) (xy 241.3 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "89dd5e87-1c04-4e90-9e0e-d043a53703e2")
+	)
+	(wire
+		(pts
+			(xy 241.3 46.99) (xy 247.65 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8b0b385b-b544-407b-8fdf-80be9eb974ee")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf2ad49-bd55-4d4e-bb2c-150418f43552")
+	)
+	(wire
+		(pts
+			(xy 186.69 91.44) (xy 219.71 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "9073bf17-3ee5-432f-980d-1647e3c9b506")
+	)
+	(wire
+		(pts
+			(xy 241.3 144.78) (xy 247.65 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "91937da1-6d3f-4af4-9b0f-5e75a9cf585d")
+	)
+	(wire
+		(pts
+			(xy 241.3 82.55) (xy 241.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "98643a7e-7b70-4aa0-8c9e-79ce8b8bf99c")
+	)
+	(wire
+		(pts
 			(xy 144.78 80.01) (xy 144.78 76.2)
 		)
 		(stroke
@@ -2852,6 +3271,17 @@
 			(type default)
 		)
 		(uuid "9a610020-b80b-4483-a225-50eab30e81cd")
+	)
+	(wire
+		(pts
+			(xy 226.06 36.83) (xy 233.68 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a03ff9bc-d4da-4259-af2d-1ea94a000470")
 	)
 	(wire
 		(pts
@@ -2866,14 +3296,23 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 78.74) (xy 207.01 78.74)
+			(xy 111.76 93.98) (xy 116.84 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 255 0 0 1)
 		)
-		(uuid "a3172f71-8c49-4980-916e-67f81bb9724e")
+		(uuid "a1baa8d1-0c61-4fbe-a370-5b956ccc8b83")
+	)
+	(wire
+		(pts
+			(xy 116.84 111.76) (xy 132.08 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3f19a60-5ff4-467e-80ec-c950db50bae3")
 	)
 	(wire
 		(pts
@@ -2887,25 +3326,25 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 190.5 99.06)
+			(xy 186.69 86.36) (xy 218.44 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 255 1)
+			(color 255 0 0 1)
 		)
-		(uuid "a9264c74-d798-47d8-9b80-a10988de824f")
+		(uuid "abc149be-6d26-4f12-bb21-11dccd30c1a0")
 	)
 	(wire
 		(pts
-			(xy 195.58 119.38) (xy 214.63 119.38)
+			(xy 241.3 114.3) (xy 241.3 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 255 1)
 		)
-		(uuid "aaa0de0c-fbf6-48b0-a132-e3b1a07fea74")
+		(uuid "add0d3eb-f44f-4dda-a6e7-96e0f77dc5fc")
 	)
 	(wire
 		(pts
@@ -2916,17 +3355,6 @@
 			(type default)
 		)
 		(uuid "b3ecc46f-b6cd-4d05-88ce-5df262686f5c")
-	)
-	(wire
-		(pts
-			(xy 186.69 93.98) (xy 195.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "b5710cf4-0a6d-43eb-a8fe-e8099ba5a763")
 	)
 	(wire
 		(pts
@@ -2941,56 +3369,80 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 149.86) (xy 214.63 149.86)
+			(xy 241.3 80.01) (xy 247.65 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b61b568f-8b0d-4aed-bf21-ff81b57e26e1")
+	)
+	(wire
+		(pts
+			(xy 226.06 101.6) (xy 233.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b99711ef-2c14-444c-8ef4-ce897f4f1348")
+	)
+	(wire
+		(pts
+			(xy 219.71 53.34) (xy 226.06 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 255 1)
 		)
-		(uuid "bb3b8c58-68fa-4852-a194-695766df7ae4")
+		(uuid "c0081924-2b52-4fbc-a04d-8590cda93d1d")
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 132.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c503b9d5-435b-4f90-8210-91887b63c9ff")
-	)
-	(wire
-		(pts
-			(xy 195.58 93.98) (xy 195.58 119.38)
+			(xy 247.65 147.32) (xy 241.3 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 255 1)
 		)
-		(uuid "c7977c6d-e631-4e5c-a6d1-110cc8d0b196")
+		(uuid "c2fe55e7-aa59-4c33-8689-26f20f696210")
 	)
 	(wire
 		(pts
-			(xy 186.69 96.52) (xy 193.04 96.52)
+			(xy 186.69 96.52) (xy 222.25 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 255 1)
 		)
-		(uuid "c866bfce-0d94-4abf-bb8b-dafed6707012")
+		(uuid "c58c6e0c-e4b5-4a9a-a0b1-a01f3e65ebbb")
 	)
 	(wire
 		(pts
-			(xy 127 76.2) (xy 127 80.01)
+			(xy 186.69 78.74) (xy 218.44 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 0 1)
 		)
-		(uuid "cb3b3f52-2e2e-4013-938a-397f905921fb")
+		(uuid "c5f7a218-102c-4bc9-a55a-ca5d123c7123")
+	)
+	(wire
+		(pts
+			(xy 218.44 86.36) (xy 218.44 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "c98bad1f-08ef-4f94-b7ee-2a3066e169a6")
 	)
 	(wire
 		(pts
@@ -3014,14 +3466,25 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 83.82) (xy 201.93 132.08)
+			(xy 226.06 53.34) (xy 233.68 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "d212bd2e-ccb2-4488-91c6-84e121b945a5")
+	)
+	(wire
+		(pts
+			(xy 186.69 83.82) (xy 220.98 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "d13032d4-52ae-4565-b555-27544dc386c5")
+		(uuid "d2d53b6d-9cc6-4426-ae3c-961b943a0e63")
 	)
 	(wire
 		(pts
@@ -3046,39 +3509,6 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 83.82) (xy 201.93 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d41159d4-76d0-4e2c-b936-a1b6ee55a1e4")
-	)
-	(wire
-		(pts
-			(xy 186.69 81.28) (xy 204.47 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d4a36629-7f53-45b3-b665-efac96d0935b")
-	)
-	(wire
-		(pts
-			(xy 193.04 96.52) (xy 193.04 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 255 1)
-		)
-		(uuid "d784b3b2-5015-48af-bec0-c968b387ad9f")
-	)
-	(wire
-		(pts
 			(xy 60.96 111.76) (xy 53.34 111.76)
 		)
 		(stroke
@@ -3089,66 +3519,102 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 147.32) (xy 214.63 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "d9b7f660-bb5b-48db-8659-30d9f9128e71")
-	)
-	(wire
-		(pts
-			(xy 186.69 91.44) (xy 198.12 91.44)
+			(xy 226.06 86.36) (xy 233.68 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 0 0 255 1)
 		)
-		(uuid "d9f9a946-e984-4816-be73-882b5c7c4a61")
+		(uuid "da2235b0-f198-4e18-ab6f-3472f69ede57")
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 127 76.2)
+			(xy 241.3 49.53) (xy 241.3 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
-		(uuid "e203340d-5dfa-4c17-bcbe-374a77cf9be7")
+		(uuid "dcb74475-b80d-484e-96f5-6bc6449a4e36")
 	)
 	(wire
 		(pts
-			(xy 204.47 116.84) (xy 214.63 116.84)
+			(xy 186.69 99.06) (xy 219.71 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "de92c6d6-35a3-49bc-beb7-a93080c5afbb")
+	)
+	(wire
+		(pts
+			(xy 222.25 118.11) (xy 226.06 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "dec31e38-0fcc-43db-a65f-a9692cf93b3a")
+	)
+	(wire
+		(pts
+			(xy 218.44 36.83) (xy 226.06 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 			(color 255 0 0 1)
 		)
-		(uuid "e3d0bc31-5229-4ba7-9b6b-fa14ab5ce5b5")
+		(uuid "e44ddd1a-586b-4f4a-8aee-de706fae6e10")
 	)
 	(wire
 		(pts
-			(xy 127 73.66) (xy 127 69.85)
+			(xy 186.69 93.98) (xy 222.25 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 0 0 255 1)
 		)
-		(uuid "eca8b09a-c6e6-4e63-bb53-e5a8507ce3b3")
+		(uuid "e6d41b03-33e4-4c22-80ad-2ed0f440dc9f")
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 127 73.66)
+			(xy 220.98 101.6) (xy 226.06 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
+			(color 255 0 0 1)
 		)
-		(uuid "f17258cc-7df8-420b-8821-4133851fb27e")
+		(uuid "edd6fb21-0947-469e-a0ac-d1cb0afa23cb")
+	)
+	(wire
+		(pts
+			(xy 222.25 86.36) (xy 226.06 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "ef443af8-6507-48e9-b558-beca484cafdd")
+	)
+	(wire
+		(pts
+			(xy 222.25 93.98) (xy 222.25 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 255 1)
+		)
+		(uuid "f0425f6b-1a8f-4329-bf4b-07e307a91395")
 	)
 	(wire
 		(pts
@@ -3160,6 +3626,26 @@
 			(color 255 0 0 1)
 		)
 		(uuid "f3827afb-7b7a-4e50-8ff7-8871381c2283")
+	)
+	(wire
+		(pts
+			(xy 116.84 80.01) (xy 132.08 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e4505c-14c4-40fd-af6c-8923a21d1f27")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 116.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8d96371-3703-4e26-a3fb-da2fa9da3ee9")
 	)
 	(text_box "Wire Color Code\n\nRed = Tip/X Channel\nBlue = Ring/Y Channel\nGreen = Power 5V/Microcontroller Signal"
 		(exclude_from_sim no)
@@ -3220,7 +3706,7 @@
 	)
 	(text_box "Inputs"
 		(exclude_from_sim no)
-		(at 219.71 88.9 0)
+		(at 251.46 33.02 0)
 		(size 20.32 3.81)
 		(stroke
 			(width 0)
@@ -3236,6 +3722,208 @@
 			(justify left top)
 		)
 		(uuid "df2e9fdb-f343-42f2-97f9-ce5d3792f988")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 207.01 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00ba76ba-07f2-44c2-9e56-cec2e49da67c")
+		(property "Reference" "C2"
+			(at 210.82 56.2609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10 uF"
+			(at 210.82 58.8009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 207.9752 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 207.01 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dd477b8-011a-461b-afb0-384e51beceff")
+		)
+		(pin "2"
+			(uuid "cf2f1cc4-1d5d-4d11-9e6e-80c4f93b3f01")
+		)
+		(instances
+			(project ""
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 207.01 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1618c57b-9852-47b3-87a7-a109735d1cdb")
+		(property "Reference" "#PWR011"
+			(at 207.01 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 207.01 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 207.01 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72fae159-a8ea-4bc3-ac7f-e4423a993dba")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 278.13 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c69b468-ddd7-4877-a646-0344f3422946")
+		(property "Reference" "#PWR01"
+			(at 278.13 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 278.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 278.13 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772d4f47-fd9c-4e5b-97a2-250bd9fff5b8")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4052B")
@@ -3265,7 +3953,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "8 Pin DIP Connector:DIPS762W70P254L2032H510Q16N"
 			(at 177.8 105.41 0)
 			(effects
 				(font
@@ -3345,6 +4033,195 @@
 			(project ""
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 226.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30136602-4e77-41b1-9d6f-6ba14fba8786")
+		(property "Reference" "#PWR012"
+			(at 226.06 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 226.06 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 226.06 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a666d91f-a331-4628-83bd-efb4a35a4e97")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thick 3.5 Jack:SJ1-3523NG")
+		(at 278.13 147.32 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31463a91-c77a-4f22-99d9-17e063886cf3")
+		(property "Reference" "J5"
+			(at 262.89 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SJ1-3523NG"
+			(at 262.89 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thick 3.5 Jack:SJ13523NG"
+			(at 251.46 52.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/sj1-3523ng/cui-devices"
+			(at 251.46 -47.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors Audio Jacks 3.5 MM AUDIO JACK"
+			(at 278.13 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.6"
+			(at 251.46 -247.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-SJ1-3523NG"
+			(at 251.46 -347.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ1-3523NG?qs=WyjlAZoYn50Li0c1bXCgGA%3D%3D"
+			(at 251.46 -447.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "CUI Devices"
+			(at 251.46 -547.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SJ1-3523NG"
+			(at 251.46 -647.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4224f731-3155-490a-aa59-79cffb192f3f")
+		)
+		(pin "2"
+			(uuid "ede2af56-7e3e-4b13-a49e-60eee64d1ef1")
+		)
+		(pin "1"
+			(uuid "202b0303-dfa3-4c65-8f11-7e9b6cd2848b")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -3503,6 +4380,197 @@
 		)
 	)
 	(symbol
+		(lib_id "Thick 3.5 Jack:SJ1-3523NG")
+		(at 278.13 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3901bd50-9c9d-44dc-8cc9-b6fad45835ad")
+		(property "Reference" "J3"
+			(at 262.89 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SJ1-3523NG"
+			(at 262.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thick 3.5 Jack:SJ13523NG"
+			(at 251.46 -12.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/sj1-3523ng/cui-devices"
+			(at 251.46 -112.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors Audio Jacks 3.5 MM AUDIO JACK"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.6"
+			(at 251.46 -312.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-SJ1-3523NG"
+			(at 251.46 -412.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ1-3523NG?qs=WyjlAZoYn50Li0c1bXCgGA%3D%3D"
+			(at 251.46 -512.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "CUI Devices"
+			(at 251.46 -612.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SJ1-3523NG"
+			(at 251.46 -712.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "df423b20-1f7e-4d50-98d5-00293191b08a")
+		)
+		(pin "2"
+			(uuid "982da4a2-5511-416c-af09-d2d7e71a584b")
+		)
+		(pin "1"
+			(uuid "79c52b96-c495-40fe-9015-1f47d0e13e8a")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 53.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ebf35b9-f084-42ac-a2b7-f0ec655478ca")
+		(property "Reference" "C4"
+			(at 237.49 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 237.49 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 52.3748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "665f6ec2-70e1-4a97-b1c1-93dd6794a95c")
+		)
+		(pin "2"
+			(uuid "45bf2fc4-13eb-48de-9802-2fffc1ffa57c")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 191.77 58.42 0)
 		(unit 1)
@@ -3530,7 +4598,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
 			(at 192.7352 62.23 0)
 			(effects
 				(font
@@ -3567,6 +4635,144 @@
 			(project ""
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 134.62 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "423fe47d-6ee1-4f36-9a81-859bd614078d")
+		(property "Reference" "C9"
+			(at 237.49 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 237.49 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 133.6548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ce3ee2c-1f68-49af-b8e9-4b764ab5cb7f")
+		)
+		(pin "2"
+			(uuid "1e32996c-5115-4ea2-a368-d5782a26c9ac")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "426f9c32-cd8b-4264-a028-318c297a39ed")
+		(property "Reference" "R9"
+			(at 228.6 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 228.6 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 90.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70aeb05c-65c9-4e49-bf0c-595bd29d482e")
+		)
+		(pin "1"
+			(uuid "115ac242-aff7-4fda-b1eb-c5ad084f73d8")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3633,6 +4839,142 @@
 			(project ""
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "579515d8-eea2-4627-959a-9063c0514204")
+		(property "Reference" "R8"
+			(at 228.6 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 228.6 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 73.914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7af44ae1-4e3b-4a14-8f56-b094eaa32bdf")
+		)
+		(pin "1"
+			(uuid "778d05c6-ee45-4574-ac23-23204ea17c73")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 226.06 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57ab28be-4441-4e52-9533-1ff6d4d9e1f8")
+		(property "Reference" "#PWR02"
+			(at 226.06 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 226.06 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 226.06 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4299fe16-6332-4f2a-b0b1-0ea45c221942")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3771,6 +5113,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 226.06 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74725ea9-092e-4fc8-b631-62f1a5dab2d0")
+		(property "Reference" "#PWR04"
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 226.06 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 226.06 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60d6e39b-ade6-4b13-9b29-4576c5bc2e58")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 170.18 54.61 90)
 		(unit 1)
@@ -3796,7 +5204,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 170.434 53.594 90)
 			(effects
 				(font
@@ -3864,7 +5272,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SJ13523NG"
+		(property "Footprint" "Thick 3.5 Jack:SJ13523NG"
 			(at 147.32 -6.02 0)
 			(effects
 				(font
@@ -3963,16 +5371,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 245.11 104.14 0)
+		(at 278.13 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9295ae5b-65c2-477c-a09f-ddbedcf496e7")
-		(property "Reference" "#PWR01"
-			(at 245.11 110.49 0)
+		(uuid "83149eae-af87-43de-b12e-9ec58b93c1ca")
+		(property "Reference" "#PWR019"
+			(at 278.13 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,7 +5389,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 245.11 109.22 0)
+			(at 278.13 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +5397,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 104.14 0)
+			(at 278.13 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +5406,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 104.14 0)
+			(at 278.13 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +5415,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 245.11 104.14 0)
+			(at 278.13 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,12 +5424,78 @@
 			)
 		)
 		(pin "1"
-			(uuid "238969dd-bbc5-481d-8033-902d23587b6e")
+			(uuid "60bc5289-227a-43f1-a2c9-ce92fa880741")
 		)
 		(instances
-			(project ""
+			(project "KiCad_Arduino_IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
-					(reference "#PWR01")
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 278.13 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90445888-a4a6-4943-b74a-7fd31ee78027")
+		(property "Reference" "#PWR013"
+			(at 278.13 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 278.13 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 278.13 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7695269-df61-4366-8a93-3d5968b28d32")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4095,6 +5569,144 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 226.06 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acdb2d0c-08ea-4283-a921-46725e6f3504")
+		(property "Reference" "R7"
+			(at 228.6 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 228.6 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "182cba48-14be-4c3f-a95c-47f04aaa41ec")
+		)
+		(pin "1"
+			(uuid "9fd07fd7-7b68-49b9-8ef2-ec0c9a7298b1")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 118.11 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae488b4e-c0ab-43ed-9d99-418382dae04f")
+		(property "Reference" "C8"
+			(at 237.49 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 237.49 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 117.1448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1aef27fc-de96-480b-a061-a3a6b2341e4b")
+		)
+		(pin "2"
+			(uuid "52cf428b-9d30-4e88-9df7-a9521fee96ae")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 135.89 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4119,7 +5731,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 136.144 110.744 90)
 			(effects
 				(font
@@ -4162,17 +5774,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 245.11 134.62 0)
+		(lib_id "Device:C")
+		(at 237.49 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bf6743ef-d6d0-4559-b86f-b27bc1892f75")
-		(property "Reference" "#PWR03"
-			(at 245.11 140.97 0)
+		(uuid "b2a63a74-860a-46ad-813f-680bf55d873f")
+		(property "Reference" "C3"
+			(at 237.49 29.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 237.49 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 35.8648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,16 +5808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 245.11 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 134.62 0)
+		(property "Datasheet" "~"
+			(at 237.49 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,17 +5817,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 245.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 245.11 134.62 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,12 +5827,213 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e6d4e8f-d300-44af-b517-21012d3146a6")
+			(uuid "17c7c0db-26f5-4b95-a312-5ba91ccdd472")
+		)
+		(pin "2"
+			(uuid "e11bb703-f07d-4894-bb7a-66ea12a2af9f")
 		)
 		(instances
-			(project "IOTAudioSwitch"
+			(project "KiCad_Arduino_IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
-					(reference "#PWR03")
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 226.06 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4d8191e-c515-4029-a800-f71c0e3cbeab")
+		(property "Reference" "#PWR018"
+			(at 226.06 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 226.06 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 226.06 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af574c1c-e222-4453-882f-77f02ca86b95")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 226.06 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd5825b5-0ac1-45a2-b38f-3a546ae25912")
+		(property "Reference" "#PWR017"
+			(at 226.06 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 226.06 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 226.06 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8114b2f-a87d-4a6f-a3bf-58186440e418")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDA")
+		(at 226.06 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be77abbb-bf2b-4e6c-b394-66d1d4e03f6a")
+		(property "Reference" "#PWR014"
+			(at 226.06 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 226.06 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 226.06 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb93f985-df3d-486f-b0e2-41ee8ba015ff")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -4253,7 +6065,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 136.144 78.994 90)
 			(effects
 				(font
@@ -4296,17 +6108,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDA")
-		(at 245.11 149.86 0)
+		(lib_id "Device:R_US")
+		(at 226.06 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c615a741-6390-4542-bd0a-3597e202bea0")
-		(property "Reference" "#PWR04"
-			(at 245.11 156.21 0)
+		(uuid "c489421e-b272-47a3-bd7d-dc4e83cfb088")
+		(property "Reference" "R6"
+			(at 228.6 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 228.6 41.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 40.894 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4314,16 +6144,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDA"
-			(at 245.11 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 149.86 0)
+		(property "Datasheet" "~"
+			(at 226.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4331,8 +6153,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 245.11 149.86 0)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4340,8 +6162,67 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 245.11 149.86 0)
+		(pin "2"
+			(uuid "9f892639-7d39-41d9-b77e-24e26a41e28d")
+		)
+		(pin "1"
+			(uuid "f942c7be-8ae9-49e4-9929-88aa551ddae5")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5049bf9-e38d-4c6a-8eaa-a73a8ef28a3c")
+		(property "Reference" "C7"
+			(at 237.49 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 237.49 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 100.6348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4350,12 +6231,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d9833d37-fd04-41a4-b83a-abaf83f20e9a")
+			(uuid "53e5eaa6-aeb9-465e-ac73-c4e7339cf04b")
+		)
+		(pin "2"
+			(uuid "0b07f972-2d75-4525-a904-ce32a36dc029")
 		)
 		(instances
-			(project "IOTAudioSwitch"
+			(project "KiCad_Arduino_IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
-					(reference "#PWR04")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -4363,16 +6247,16 @@
 	)
 	(symbol
 		(lib_id "power:GNDA")
-		(at 245.11 119.38 0)
+		(at 226.06 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c72954c1-1d29-43c2-a0e4-29d3d1236667")
-		(property "Reference" "#PWR02"
-			(at 245.11 125.73 0)
+		(uuid "c5ffedb5-c79b-4d53-af32-d9446de665c4")
+		(property "Reference" "#PWR015"
+			(at 226.06 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4381,7 +6265,7 @@
 			)
 		)
 		(property "Value" "GNDA"
-			(at 245.11 124.46 0)
+			(at 226.06 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4389,7 +6273,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 119.38 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4398,7 +6282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 119.38 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4407,7 +6291,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
-			(at 245.11 119.38 0)
+			(at 226.06 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4416,12 +6300,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "3af60741-4309-4426-a8df-b654e2f919e8")
+			(uuid "a9d58c68-b52b-4f9a-94c4-7e1589a756a1")
 		)
 		(instances
-			(project "IOTAudioSwitch"
+			(project "KiCad_Arduino_IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
-					(reference "#PWR02")
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6ba2964-9f2f-46f5-afe0-5adfb742bcc2")
+		(property "Reference" "C5"
+			(at 237.49 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 237.49 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 68.8848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75f6c3ce-d83e-4cf2-a4dc-96ba5fd3daae")
+		)
+		(pin "2"
+			(uuid "a4e70bdb-6140-46be-a495-bfccb104f3a7")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4453,7 +6405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 136.144 68.834 90)
 			(effects
 				(font
@@ -4496,53 +6448,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Thick 3.5 Jack:SJ1-3523NG")
-		(at 245.11 149.86 180)
+		(lib_id "Device:R_US")
+		(at 226.06 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c83a2e2d-3ed0-408e-aa0f-688092574e44")
-		(property "Reference" "J5"
-			(at 229.87 139.7 0)
+		(uuid "c8ae1b33-75c1-4ad1-bdf4-76ea13d4cd9e")
+		(property "Reference" "R11"
+			(at 228.6 120.6499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "SJ1-3523NG"
-			(at 229.87 142.24 0)
+		(property "Value" "10K Ohm"
+			(at 228.6 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "SJ13523NG"
-			(at 218.44 54.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/sj1-3523ng/cui-devices"
-			(at 218.44 -45.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phone Connectors Audio Jacks 3.5 MM AUDIO JACK"
-			(at 245.11 149.86 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 122.174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4550,69 +6484,34 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "5.6"
-			(at 218.44 -245.06 0)
+		(property "Datasheet" "~"
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "490-SJ1-3523NG"
-			(at 218.44 -345.06 0)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ1-3523NG?qs=WyjlAZoYn50Li0c1bXCgGA%3D%3D"
-			(at 218.44 -445.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "CUI Devices"
-			(at 218.44 -545.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SJ1-3523NG"
-			(at 218.44 -645.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "4bca4fb1-2fb1-4c76-a1d1-7398452e7aea")
 		)
 		(pin "2"
-			(uuid "80132c81-bcf3-42bd-b74f-650b0999129f")
+			(uuid "46a1efe1-1f3e-4887-8eac-3202cb2fd05f")
 		)
 		(pin "1"
-			(uuid "c4b036ad-7e33-4e15-a920-9c6d4b839b4e")
+			(uuid "d5721a24-517a-4f6d-a9db-6806a0437711")
 		)
 		(instances
-			(project "IOTAudioSwitch"
+			(project "KiCad_Arduino_IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
-					(reference "J5")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -4685,6 +6584,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDA")
+		(at 226.06 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d20dbfbc-23b7-46dd-aa8e-2b5481fe90c5")
+		(property "Reference" "#PWR03"
+			(at 226.06 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDA"
+			(at 226.06 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 226.06 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "65a57661-d64c-4171-94d2-f6ad614ea673")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 135.89 124.46 90)
 		(unit 1)
@@ -4710,7 +6675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 136.144 123.444 90)
 			(effects
 				(font
@@ -4754,7 +6719,7 @@
 	)
 	(symbol
 		(lib_id "Thick 3.5 Jack:SJ1-3523NG")
-		(at 245.11 104.14 180)
+		(at 278.13 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4763,7 +6728,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6e827a3-5333-4ffc-9e7f-6f24bf56d77a")
 		(property "Reference" "J2"
-			(at 229.87 93.98 0)
+			(at 262.89 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,15 +6736,15 @@
 			)
 		)
 		(property "Value" "SJ1-3523NG"
-			(at 229.87 96.52 0)
+			(at 262.89 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SJ13523NG"
-			(at 218.44 9.22 0)
+		(property "Footprint" "Thick 3.5 Jack:SJ13523NG"
+			(at 251.46 -45.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +6754,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.arrow.com/en/products/sj1-3523ng/cui-devices"
-			(at 218.44 -90.78 0)
+			(at 251.46 -145.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4799,7 +6764,7 @@
 			)
 		)
 		(property "Description" "Phone Connectors Audio Jacks 3.5 MM AUDIO JACK"
-			(at 245.11 104.14 0)
+			(at 278.13 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +6773,7 @@
 			)
 		)
 		(property "Height" "5.6"
-			(at 218.44 -290.78 0)
+			(at 251.46 -345.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4818,7 +6783,7 @@
 			)
 		)
 		(property "Mouser Part Number" "490-SJ1-3523NG"
-			(at 218.44 -390.78 0)
+			(at 251.46 -445.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,7 +6793,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ1-3523NG?qs=WyjlAZoYn50Li0c1bXCgGA%3D%3D"
-			(at 218.44 -490.78 0)
+			(at 251.46 -545.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4838,7 +6803,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "CUI Devices"
-			(at 218.44 -590.78 0)
+			(at 251.46 -645.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4848,7 +6813,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SJ1-3523NG"
-			(at 218.44 -690.78 0)
+			(at 251.46 -745.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4876,53 +6841,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Thick 3.5 Jack:SJ1-3523NG")
-		(at 245.11 119.38 180)
+		(lib_id "power:GNDA")
+		(at 278.13 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d9f36eea-224a-4da4-b1b9-c60252602214")
-		(property "Reference" "J3"
-			(at 229.87 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SJ1-3523NG"
-			(at 229.87 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SJ13523NG"
-			(at 218.44 24.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/sj1-3523ng/cui-devices"
-			(at 218.44 -75.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phone Connectors Audio Jacks 3.5 MM AUDIO JACK"
-			(at 245.11 119.38 0)
+		(uuid "d7ce243d-494e-47f6-8882-c3193972f726")
+		(property "Reference" "#PWR016"
+			(at 278.13 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4930,122 +6859,81 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "5.6"
-			(at 218.44 -275.54 0)
+		(property "Value" "GNDA"
+			(at 278.13 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "490-SJ1-3523NG"
-			(at 218.44 -375.54 0)
+		(property "Footprint" ""
+			(at 278.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ1-3523NG?qs=WyjlAZoYn50Li0c1bXCgGA%3D%3D"
-			(at 218.44 -475.54 0)
+		(property "Datasheet" ""
+			(at 278.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "CUI Devices"
-			(at 218.44 -575.54 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDA\" , analog ground"
+			(at 278.13 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Manufacturer_Part_Number" "SJ1-3523NG"
-			(at 218.44 -675.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "176c2b96-8d37-4e7b-8a7c-30afb4b7a038")
-		)
-		(pin "2"
-			(uuid "2d0e0b6d-f769-4985-a279-61689c6b9e37")
 		)
 		(pin "1"
-			(uuid "11ea858e-3db5-49eb-b1eb-21d959becda6")
+			(uuid "6bf5d79d-fc43-4ecf-a304-ecc138d75945")
 		)
 		(instances
-			(project "IOTAudioSwitch"
+			(project "KiCad_Arduino_IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
-					(reference "J3")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Thick 3.5 Jack:SJ1-3523NG")
-		(at 245.11 134.62 180)
+		(lib_id "Device:C")
+		(at 237.49 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dca6ec18-84cb-4ed8-be3a-95d15d06f360")
-		(property "Reference" "J4"
-			(at 229.87 124.46 0)
+		(uuid "dffed485-1b27-4e94-9d67-dfe90b760cec")
+		(property "Reference" "C10"
+			(at 237.49 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SJ1-3523NG"
-			(at 229.87 127 0)
+		(property "Value" "1 uF"
+			(at 237.49 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "SJ13523NG"
-			(at 218.44 39.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.arrow.com/en/products/sj1-3523ng/cui-devices"
-			(at 218.44 -60.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Phone Connectors Audio Jacks 3.5 MM AUDIO JACK"
-			(at 245.11 134.62 0)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 150.1648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,69 +6941,104 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "5.6"
-			(at 218.44 -260.3 0)
+		(property "Datasheet" "~"
+			(at 237.49 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "490-SJ1-3523NG"
-			(at 218.44 -360.3 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ1-3523NG?qs=WyjlAZoYn50Li0c1bXCgGA%3D%3D"
-			(at 218.44 -460.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "CUI Devices"
-			(at 218.44 -560.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SJ1-3523NG"
-			(at 218.44 -660.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5e97ec8d-3ce8-4115-923c-bb9e9dc8f8dc")
-		)
-		(pin "2"
-			(uuid "50e406a9-1085-4e0b-98a8-ffd4ed446ad3")
 		)
 		(pin "1"
-			(uuid "34796da4-79c0-479d-9eb8-7bb196aecd2f")
+			(uuid "9cfb793f-6eee-4d04-a8b2-2eacfaeacf4d")
+		)
+		(pin "2"
+			(uuid "49384641-0e50-4406-96fd-7a2183398a72")
 		)
 		(instances
-			(project "IOTAudioSwitch"
+			(project "KiCad_Arduino_IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
-					(reference "J4")
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4863f29-da28-4d0a-8377-ece33ff4b3fb")
+		(property "Reference" "R12"
+			(at 228.6 137.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 228.6 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84936c48-616d-43e7-b161-b689c2d01b40")
+		)
+		(pin "1"
+			(uuid "9b112fdb-db9e-49d0-9497-0439aa5adc1a")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -5182,6 +7105,337 @@
 			(project "IOTAudioSwitch"
 				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e57a01bf-ade3-42ad-a703-cc36588536e3")
+		(property "Reference" "R10"
+			(at 228.6 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 228.6 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "969a768c-65d9-4746-8a4e-113cd01d646c")
+		)
+		(pin "1"
+			(uuid "978c9f59-8aaa-4b4c-ad6a-747a5b4f5cca")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Thick 3.5 Jack:SJ1-3523NG")
+		(at 278.13 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6419aab-9a31-41e2-8115-2d46f7d51060")
+		(property "Reference" "J4"
+			(at 262.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SJ1-3523NG"
+			(at 262.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Thick 3.5 Jack:SJ13523NG"
+			(at 251.46 19.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/sj1-3523ng/cui-devices"
+			(at 251.46 -80.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Phone Connectors Audio Jacks 3.5 MM AUDIO JACK"
+			(at 278.13 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.6"
+			(at 251.46 -280.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-SJ1-3523NG"
+			(at 251.46 -380.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/SJ1-3523NG?qs=WyjlAZoYn50Li0c1bXCgGA%3D%3D"
+			(at 251.46 -480.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "CUI Devices"
+			(at 251.46 -580.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SJ1-3523NG"
+			(at 251.46 -680.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e2b5c555-ab6e-40a0-b964-6af496f76093")
+		)
+		(pin "2"
+			(uuid "6bbaec27-4b39-43e2-9f3b-a22dd8c30cdb")
+		)
+		(pin "1"
+			(uuid "760d2f73-1037-41dd-b5ec-1d8ba10efc73")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 237.49 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9887e2f-c7ab-414f-81fc-97b6d2a492b1")
+		(property "Reference" "C6"
+			(at 237.49 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1 uF"
+			(at 237.49 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D8.0mm_W2.5mm_P5.00mm"
+			(at 241.3 85.3948 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1c3e617-2817-49b1-bf97-a219a94fb551")
+		)
+		(pin "2"
+			(uuid "0afb3e53-e988-4533-bcab-5c8de78ccb61")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 226.06 154.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f6f6f2ac-eb1a-457c-9d7a-db7a9ed2db42")
+		(property "Reference" "R13"
+			(at 228.6 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K Ohm"
+			(at 228.6 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 227.076 155.194 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 226.06 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cddf1e5d-8a48-450b-83d8-14f8a878186c")
+		)
+		(pin "1"
+			(uuid "fcf6f734-afe0-4278-82f2-39baf091becf")
+		)
+		(instances
+			(project "KiCad_Arduino_IOTAudioSwitch"
+				(path "/03f1fc6d-1ce7-415a-a14b-91eb89b09d25"
+					(reference "R13")
 					(unit 1)
 				)
 			)
